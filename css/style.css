@@ -142,8 +142,7 @@ footer {
 	width: 3%;
 	margin-top: 12%;
 	margin-left: 16%;
-	transition: 1.5s ease-in-out;
-	transition-delay: 0.01s;
+	transition: 1.5s ease;
 }
 
 .contact p {
