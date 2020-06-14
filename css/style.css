@@ -1,0 +1,158 @@
+/* global */
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+/* Nav Bar */
+#nav {
+	background-color: #1c1c21;
+	min-height: 100px;
+}
+
+#nav ul {
+	list-style: none;
+	padding-left: 5%;
+}
+
+#nav li {
+	display: inline-block;
+	width: 20%;
+	text-align: center;
+	font-family: sans-serif;
+	padding-top: 40px;
+	font-size: 20px;
+}
+
+#nav li a {
+	text-decoration: none;
+	color: white;
+}
+
+#nav li a:hover {
+	color: coral;
+}
+
+/* banner */
+#banner {
+	margin-top: -80px;
+	background: #1c1c1c;
+	min-height: 100vh;
+	text-align: center;
+}
+
+#banner h1 {
+	padding-top: 100px;
+	color: white;
+	font-size: 80px;
+	font-family: sans-serif;
+	line-height: 1.5em;
+	font-weight: 700;
+}
+
+#banner h3 {
+	color: white;
+	font-size: 30px;
+	font-family: sans-serif;
+	font-weight: 500;
+}
+
+/* resume button */
+.btn {
+	margin-top: 5%;
+	width: 20%;
+	background: #1c1c1c;
+	border-radius: 20px;
+}
+
+.btn a {
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: sans-serif;
+	color: white;
+	background: #1c1c1c;
+}
+
+.btn a:hover {
+	color: lightcoral;
+}
+
+/* footer */
+footer {
+	width: 100%;
+	background: #1c1c21;
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 15px;
+	min-height: 35px;
+}
+
+/* Skills */
+.skill {
+	background: #1c1c1c;
+	height: 100vh;
+}
+
+.skill ul {
+	padding: 0px;
+	list-style: none;
+}
+
+.skill li {
+	color: white;
+	font-family: sans-serif;
+	display: inline-block;
+	width: 45%;
+	margin: 20px;
+	border: 2px solid grey;
+}
+
+.skill li h3, p {
+	padding: 10px;
+	text-align: center;
+}
+
+.skill li p{
+	line-height: 1.5em;
+}
+
+
+/* Contact */
+.contact {
+	background: #1c1c1c;
+	height: 100vh;
+	margin-top: -20px;
+	margin-bottom: -20px;
+}
+
+.contact img {
+	width: 3%;
+	margin-top: 12%;
+	margin-left: 16%;
+}
+
+.contact p {
+	color: white;
+	font-family: sans-serif;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 5%;
+	line-height: 1.5em;
+}
+
+
+/* media tag */
+@media (max-width: 500px) {
+	
+	.skill li {
+		width: 95%;
+	}
+
+}
