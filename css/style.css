@@ -54,7 +54,11 @@ body {
 	line-height: 1.5em;
 	font-weight: 700;
 	transition: 1.5s ease;
+<<<<<<< HEAD
 	transition-delay: 0.2s;
+=======
+	transition-delay: 0.5s;
+>>>>>>> a49d15ce2ede57dc538a9a6070b8265282791ddf
 }
 
 #banner h3 {
