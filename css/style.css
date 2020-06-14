@@ -53,6 +53,7 @@ body {
 	font-family: sans-serif;
 	line-height: 1.5em;
 	font-weight: 700;
+	transition: 1.5s ease;
 }
 
 #banner h3 {
@@ -123,6 +124,10 @@ footer {
 	line-height: 1.5em;
 }
 
+.skill li p a:hover {
+	opacity: 0.8;
+}
+
 
 /* Contact */
 .contact {
@@ -136,6 +141,7 @@ footer {
 	width: 3%;
 	margin-top: 12%;
 	margin-left: 16%;
+	transition: 1.5s ease-in-out;
 }
 
 .contact p {
@@ -147,12 +153,9 @@ footer {
 	line-height: 1.5em;
 }
 
-
-/* media tag */
-@media (max-width: 500px) {
-	
-	.skill li {
-		width: 95%;
-	}
-
+.contact img:hover {
+	opacity: 0.4;
 }
+
+
+/* media tags */
