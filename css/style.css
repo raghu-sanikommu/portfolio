@@ -119,6 +119,7 @@ footer {
 	width: 45%;
 	margin: 20px;
 	border: 2px solid grey;
+	border-radius: 10px;
 }
 
 .skill li h3, p {
@@ -200,10 +201,6 @@ footer {
 	font-family: sans-serif;  
 }
 
-.form input[text] {
-	background: red;
-}
-
 .form textarea {
 	width: 72%;
 	margin: 10px;
@@ -215,3 +212,80 @@ footer {
 }
 
 /* media tags */
+/* for all devices other than laptops  */
+/* ipad pro screen width = 1024px */
+
+@media screen and (max-width: 1025px) {
+	
+	/* Home */	
+	#nav {
+		min-height: 55px;
+	}
+
+	#nav li {
+		padding-top: 20px;
+		font-size: 13px;
+	}
+
+	#banner h1 {
+		padding-top: 30%;
+		font-size: 30px;
+		font-weight: 300;
+	}
+
+	#banner h3 {
+		font-size: 15px;
+		font-weight: 0;
+	}
+
+	/* resume button */
+	.btn {
+		width: 40%;
+		font-size: 13px;
+	}
+
+	.btn a {
+		font-size: 10px;
+		padding-bottom: 5px;
+	}
+
+	/* For skills and projects */
+	.skill li {
+		width: 95%;
+		margin: 10px;
+	}
+
+	/* Contact */
+	.contact img {
+		width: 5%;
+		margin-top: 10%;
+	}
+
+	.contact p {
+		font-size: 15px;
+		margin-top: 5%;
+	}
+
+	.form {
+		width: 60%;
+	}
+
+	.form:hover {
+		width: 65%;
+	}
+
+	.form input{ 	
+		font-size: 13px; 
+	}
+
+	.form label {
+		font-size: 13px;
+	}
+
+	/* footer */
+	footer {
+		font-size: 10px;
+		min-height: 30px;
+	}
+
+}
