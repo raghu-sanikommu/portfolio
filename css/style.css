@@ -127,6 +127,10 @@ footer {
 	text-align: center;
 }
 
+.skill li h3 {
+	padding-bottom: 0px;
+}
+
 .skill li p{
 	line-height: 1.5em;
 }
