@@ -57,11 +57,10 @@ body {
 	transition-delay: 0.01s;
 }
 
-#banner h3 {
+#banner p {
 	color: white;
-	font-size: 30px;
+	font-size: 20px;
 	font-family: sans-serif;
-	font-weight: 500;
 }
 
 /* resume button */
@@ -82,11 +81,10 @@ body {
 	font-size: 20px;
 	font-family: sans-serif;
 	color: white;
-	background: #1c1c1c;
 }
 
 .btn a:hover {
-	color: lightcoral;
+	color: springgreen;
 }
 
 /* footer */
@@ -221,6 +219,11 @@ footer {
 
 @media screen and (max-width: 1025px) {
 	
+	/* Global */
+	.container {
+		width: 90%;
+	}
+
 	/* Home */	
 	#nav {
 		min-height: 55px;
@@ -234,12 +237,10 @@ footer {
 	#banner h1 {
 		padding-top: 30%;
 		font-size: 30px;
-		font-weight: 300;
 	}
 
-	#banner h3 {
+	#banner p {
 		font-size: 15px;
-		font-weight: 0;
 	}
 
 	/* resume button */
